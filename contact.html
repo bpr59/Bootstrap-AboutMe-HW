@@ -10,14 +10,25 @@
     <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 
+    <style>
+
+        .main {
+                background-image: url(./assets/white-waves.png);
+                background-color: #9dc5c3;
+                background-image: linear-gradient(315deg, #9dc5c3 0%, #5e5c5c 74%);
+                background-size: cover;  
+            }
+        
+    </style>
+
 </head>
 
 
 
 <body>
     
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="index.html">FELIX COLON</a>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a style="color: white;" class="navbar-brand" href="index.html">FÉLIX COLÓN</a>
     
         <button class="navbar-toggler" type="button" data-toggle="collapse" 
             data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
@@ -41,10 +52,10 @@
                 Dropdown
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Resumé</a>
+                <a class="dropdown-item" href="#">Hobbies</a>
                 <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Something else here</a>
+                <a class="dropdown-item" href="#">What Next?</a>
               </div>
             </li>
           </ul>
@@ -55,26 +66,29 @@
         </div>
     </nav>
 
-    <div style="margin-top: 2em;" class="container">
+<div class="main">    
+
+    <div class="container">
         <!-- Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop -->
         <div class="row">
 
             <div class="col-12 col-lg-12">
-                <p style="font-size: 2em;">For more information or to contact me, please provide your information below.</p>
+                <p style="font-size: 2em; margin-top: 2em; color: white;">Join our mailing list! Please provide information below.</p>
             </div>
         </div>
     </div>
 
-        <div style="margin-top: 5em;" class="container">
+        <div style="margin-top: 3em;" class="container">
             <form>
                 <div class="form-row">
                 <div class="form-group col-md-6">
-                    <label for="inputEmail4">Email</label>
-                    <input type="email" class="form-control" id="inputEmail4">
+                    <label for="inputName">Name</label>
+                    <input type="text" class="form-control" placeholder="Name">
+            
                 </div>
                 <div class="form-group col-md-6">
-                    <label for="inputPassword4">Password</label>
-                    <input type="password" class="form-control" id="inputPassword4">
+                    <label for="inputEmail4">Email</label>
+                    <input type="email" class="form-control" id="inputEmail4" placeholder="name@example.com">
                 </div>
                 </div>
                 <div class="form-group">
@@ -110,32 +124,31 @@
                     </label>
                 </div>
                 </div>
-                <button type="submit" class="btn btn-primary">Sign in</button>
+                <button type="submit" class="btn btn-light">Sign in</button>
             </form>
         </div>  
 
 
         <footer class="footer">
             <div class="container-fluid">
-              <p id="copyRight">&copy;Copyright 2020 @bpr59.Designs</p>
-          
-              <a href="#">
-              <img src="./images/f_logo_RGB-Blue_58.png" height="50px" alt="Facebook logo">
-              </a>
-          
-              <a href="https://linkedin.com/in/albert-colon-51156311" target="blank">
-              <img src="./images/LI-In-Bug.png" height="50px" alt="Linkedin Bug">
-              </a>
-          
-              <a href="https://bpr59.github.io/" target="bla">
-              <img src="./images/GitHub-Mark-32px.png" height="50px" alt="Github Mark">
-              </a>
+                <p style="text-align: center;" id="copyRight">&copy;Copyright 2020 @bpr59.Designs</p>
+            
+                <a href="#">
+                <img style="margin-right: 2em; padding-left: 2em;" src="./images/f_logo_RGB-White_58.png" height="50px" alt="Facebook logo">
+                </a>
+            
+                <a href="https://linkedin.com/in/albert-colon-51156311" target="blank">
+                <img style="margin-right: 2em;" src="./images/LI-In-Bug-white.png" height="50px" alt="Linkedin Bug">
+                </a>
+            
+                <a href="https://bpr59.github.io/" target="bla">
+                <img style="margin-right: 2em;" src="./images/GitHub-Mark-Light-32px.png" height="50px" alt="Github Mark">
+                </a>
           
             </div>
           </footer>
 
-
-
+</div>
 
 
 

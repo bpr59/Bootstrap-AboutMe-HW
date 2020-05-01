@@ -10,13 +10,24 @@
     <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 
+    <style>
+
+.main {
+        background-image: url(./assets/white-waves.png);
+        background-size: cover;
+        background-color: #9dc5c3;
+        background-image: linear-gradient(315deg, #9dc5c3 0%, #5e5c5c 74%);
+    }
+
+    </style>
+
 </head>
 
 
 <body>
     
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="index.html">FELIX COLON</a>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a style="color: white;" class="navbar-brand" href="index.html">FÉLIX COLÓN</a>
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" 
             data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
@@ -40,10 +51,10 @@
                 Dropdown
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Resumé</a>
+                <a class="dropdown-item" href="#">Hobbies</a>
                 <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Something else here</a>
+                <a class="dropdown-item" href="#">What Next?</a>
               </div>
             </li>
           </ul>
@@ -52,65 +63,70 @@
             <button class="btn btn-outline-danger my-2 my-sm-0" type="submit">Search</button>
           </form>
         </div>
-      </nav>
+    </nav>
 
-      <div style="margin-top: 2em;" class="container">
+<div class="main">      
+
+    <div class="container">
         <!-- Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop -->
         <div class="row">
 
             <div class="col-12 col-lg-12">
-                <p style="font-size: 2em;">Most recent work!</p>
+                <p style="font-size: 2em; margin-top: 1em; color: white;">Most recent work!</p>
             </div>
         </div>
     </div>
 
-        <div style="margin-top: 4em;" class="container">
+        <div style="margin-top: 2em;" class="container">
             <ul class="list-unstyled">
+
                 <li class="media">
-                <img src="..." class="mr-3" alt="...">
                 <div class="media-body">
-                    <h5 class="mt-0 mb-1">List-based media object</h5>
+                    <h5 class="mt-5">List-based media object</h5>
                     Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
                 </div>
+                <video style="box-shadow: silver 5px 4px 6px;" src="./assets/NFL_SPINNING_BB_Small.mov" controls class="mr-3 rounded" alt="...">
                 </li>
+
                 <li class="media my-4">
-                <img src="..." class="mr-3" alt="...">
                 <div class="media-body">
-                    <h5 class="mt-0 mb-1">List-based media object</h5>
+                    <h5 class="mt-5">List-based media object</h5>
                     Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
                 </div>
+                <video style="box-shadow: silver 5px 4px 6px;" src="./assets/HomeDepot_small.mov" controls class="mr-3 rounded" alt="...">
                 </li>
+
                 <li class="media">
-                <img src="..." class="mr-3" alt="...">
                 <div class="media-body">
-                    <h5 class="mt-0 mb-1">List-based media object</h5>
+                    <h5 class="mt-5">List-based media object</h5>
                     Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
                 </div>
+                <video style="box-shadow: silver 5px 4px 6px;" src="./assets/HOLE_15_small.mov" controls class="mr-3 rounded" alt="...">
                 </li>
+                
             </ul>
         </div>
 
 
         <footer class="footer">
             <div class="container-fluid">
-              <p id="copyRight">&copy;Copyright 2020 @bpr59.Designs</p>
-          
-              <a href="#">
-              <img src="./images/f_logo_RGB-Blue_58.png" height="50px" alt="Facebook logo">
-              </a>
-          
-              <a href="https://linkedin.com/in/albert-colon-51156311" target="blank">
-              <img src="./images/LI-In-Bug.png" height="50px" alt="Linkedin Bug">
-              </a>
-          
-              <a href="https://bpr59.github.io/" target="bla">
-              <img src="./images/GitHub-Mark-32px.png" height="50px" alt="Github Mark">
-              </a>
-          
+                <p style="text-align: center;" id="copyRight">&copy;Copyright 2020 @bpr59.Designs</p>
+            
+                <a href="#">
+                <img style="margin-right: 2em; padding-left: 2em;" src="./images/f_logo_RGB-White_58.png" height="50px" alt="Facebook logo">
+                </a>
+            
+                <a href="https://linkedin.com/in/albert-colon-51156311" target="blank">
+                <img style="margin-right: 2em;" src="./images/LI-In-Bug-white.png" height="50px" alt="Linkedin Bug">
+                </a>
+            
+                <a href="https://bpr59.github.io/" target="bla">
+                <img style="margin-right: 2em;" src="./images/GitHub-Mark-Light-32px.png" height="50px" alt="Github Mark">
+                </a>          
             </div>
-          </footer>
+        </footer>
 
-
+</div>
 
 
 
