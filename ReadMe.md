@@ -2,7 +2,7 @@ BOOTSTRAP ABOUT-ME HOMEWORK
 
 CLIENT GOAL
 
-For this project, we are the client and needed to develop an "about me" website.
+For this project the we are the client and we need to develop a "about me" website.
 
 
 ASSIGNMENT GOAL
@@ -25,6 +25,8 @@ INDEX.HTML
 
 3- The dropdown menu has two active links that open separate links to a resume and hobbies page.
 
+<img src="assets/images/DropdownTabActivation.png">
+
 4- The search input box is active.
 
 5- The main section of the file has a card with a picture and titles of the page personality.
@@ -37,8 +39,7 @@ INDEX.HTML
 
 9- A fully fuctional sticky footer closes the page and includes links to LinkedIn and GitHub accounts.
 
-
-
+<img src="assets/images/FrontPageScreenShot.png">
 
 PORTFOLIO.HTML
 
@@ -50,6 +51,8 @@ PORTFOLIO.HTML
 
 4- A fully fuctional sticky footer closes the page and includes links to LinkedIn and GitHub accounts.
 
+<img src="assets/images/PortfolioScreenShot.png">
+
 CONTACT.HTML
 
 1- A fully functional navbar includes active links for home/portfolio/contact/dropdown buttons and pulldown. Also, the personal name is active as with a home-link. 
@@ -59,6 +62,8 @@ CONTACT.HTML
 3- Main section of the file has a request form for visitors to join a mailing list or to contact the designer.
 
 4- A fully fuctional sticky footer closes the page and includes links to LinkedIn and GitHub accounts.
+
+<img src="assets/images/ContactPageScreenShot.png">
 
 STYLE.CSS
 
