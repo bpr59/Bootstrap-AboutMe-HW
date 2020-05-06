@@ -2,7 +2,7 @@ BOOTSTRAP ABOUT-ME HOMEWORK
 
 CLIENT GOAL
 
-For this project the we are the client and we need to develop a "about me" website.
+For this project, we are the client and needed to develop an "about me" website.
 
 
 ASSIGNMENT GOAL
@@ -36,6 +36,9 @@ INDEX.HTML
 8- Second paragraph has loremipsum text.
 
 9- A fully fuctional sticky footer closes the page and includes links to LinkedIn and GitHub accounts.
+
+
+
 
 PORTFOLIO.HTML
 
