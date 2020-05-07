@@ -47,9 +47,11 @@ PORTFOLIO.HTML
 
 2- A single row element works as a title graphic for the content of the page.
 
-3- A two column main section follows with three describing paragraphs of three active video links with full playback controls.
+3- A center section with the principal project I want to present in this file takes over half the page with a video clip and an external link is active in the title graphic of the clip.
 
-4- A fully fuctional sticky footer closes the page and includes links to LinkedIn and GitHub accounts.
+4- A second section with two columns follows with two describing paragraphs and two active video links with full playback controls. These clips also have external links active in the title graphics of each clip.
+
+5- A fully fuctional sticky footer closes the page and includes links to LinkedIn and GitHub accounts.
 
 <img src="assets/images/PortfolioScreenShot.png">
 
